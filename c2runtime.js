@@ -24117,10 +24117,10 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Browser,
+	cr.plugins_.video,
+	cr.plugins_.Touch,
 	cr.plugins_.Text,
 	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
-	cr.plugins_.video,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
 	cr.behaviors.solid,
